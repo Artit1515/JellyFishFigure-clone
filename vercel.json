@@ -1,0 +1,12 @@
+{
+    "buildCommand": "npm ci --legacy-peer-deps && npm run build",
+    "devCommand": "npm ci --legacy-peer-deps && npm run dev",
+    "installCommand": "npm ci --legacy-peer-deps",
+    "routes": [
+      {
+        "src": "/[^.]+",
+        "dest": "/",
+        "status": 200
+      }
+    ]
+  }
